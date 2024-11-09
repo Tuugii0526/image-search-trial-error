@@ -8,3 +8,7 @@ export async function seeFormData(addition,formData){
     console.log('raw form data:',rawFormData);
     
 }
+export async function seeTextArea(formData){
+    const entry= formData.get('entry')
+    console.log('entry is:',entry)
+}
